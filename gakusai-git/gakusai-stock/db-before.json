@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "id": 10,
+      "itemName": "角煮",
+      "available": true,
+      "price": 500
+    },
+    {
+      "id": 20,
+      "itemName": "角煮大盛り",
+      "available": false,
+      "price": 700
+    },
+    {
+      "id": 31,
+      "itemName": "オレンジジュース",
+      "available": true,
+      "price": 150
+    },
+    {
+      "id": 32,
+      "itemName": "三ツ矢サイダー",
+      "available": true,
+      "price": 150
+    },
+    {
+      "id": 33,
+      "itemName": "コーラ",
+      "available": false,
+      "price": 150
+    },
+    {
+      "id": 34,
+      "itemName": "ジンジャーエール",
+      "available": true,
+      "price": 150
+    },
+    {
+      "id": 41,
+      "itemName": "角煮＆オレンジセット",
+      "available": true,
+      "price": 600
+    },
+    {
+      "id": 42,
+      "itemName": "角煮＆サイダーセット",
+      "available": true,
+      "price": 600
+    },
+    {
+      "id": 51,
+      "itemName": "角煮(大盛)＆オレンジセット",
+      "available": true,
+      "price": 800
+    }
+  ],
+  "orders": [
+    {
+      "orderId": 101,
+      "orderDate": "2025-09-23T17:10:00Z",
+      "userId": "user-abc",
+      "servingStatus": "SERVED"
+    },
+    {
+      "orderId": 102,
+      "orderDate": "2025-09-23T17:12:30Z",
+      "userId": "user-def",
+      "servingStatus": "PREPARING"
+    },
+    {
+      "orderId": 103,
+      "orderDate": "2025-09-23T17:15:10Z",
+      "userId": "user-ghi",
+      "servingStatus": "PAID"
+    }
+  ],
+  "orderItems": [
+    {
+      "orderid": 1,
+      "orderId": 101,
+      "id": 10,
+      "quantity": 1
+    },
+    {
+      "orderid": 2,
+      "orderId": 101,
+      "id": 33,
+      "quantity": 1
+    },
+    {
+      "orderid": 3,
+      "orderId": 102,
+      "id": 51,
+      "quantity": 1
+    },
+    {
+      "orderid": 4,
+      "orderId": 103,
+      "id": 32,
+      "quantity": 2
+    }
+  ]
+}
